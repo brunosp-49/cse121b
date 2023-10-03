@@ -30,7 +30,7 @@ let newFood = "Lemon";
 const nameElement = document.getElementById("name");
 const foodElement = document.getElementById("food");
 const yearElement = document.querySelector("#year");
-const imageElement = document.getElementsByTagName("img")[2];
+const imageElement = document.querySelectorAll("img")[2];
 
 console.log(imageElement);
 
