@@ -52,9 +52,9 @@ document.querySelector("#name").textContent = myProfile.name;
 /* Name */
 
 /* Photo with attributes */
-const imageElement = document.querySelectorAll("img")[2];
+const imageElement = document.getElementById("photo");
 imageElement.setAttribute("src", myProfile.photo);
-// imageElement.setAttribute("alt", `Profile image of ${myProfile.name}`);
+imageElement.setAttribute("alt", `Profile image of ${myProfile.name}`);
 /* Favorite Foods List*/
 
 myProfile.favoriteFoods.forEach((food) => {
