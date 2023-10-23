@@ -13,6 +13,7 @@ export default function alertMessage(message) {
     padding: 1em;
     align-self: center;
     width:30%;
+    
     `
   );
   document.body.prepend(alert);
